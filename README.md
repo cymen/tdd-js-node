@@ -1,22 +1,23 @@
-# Minimal example of running Jasmine in Node environment
+# tdd-js-node
+## Minimal example of running Jasmine in Node environment
 
 Many developers begin testing JavaScript in the browser with Jasmine. With node and
 jasmine-node, one can run the tests on node instead. This is a minimal example of
 running the tests present in [tdd-js](https://github.com/cymen/tdd-js).
 
-## Getting started
+### Getting started
 
-### clone
+#### clone
 
     git clone git@github.com:cymen/tdd-js-node.git
 
-### install node
+#### install node
 
 This is platform-specific and will not be addressed here. Instead, visit:
 
 http://nodejs.org/download/
 
-### install packages with `npm install`
+#### install packages with `npm install`
 
     > npm install
 
@@ -33,7 +34,7 @@ http://nodejs.org/download/
     ├── jasmine-reporters@0.2.1
     └── gaze@0.3.4 (minimatch@0.2.12, fileset@0.1.5)
 
-### run tests with `npm test`
+#### run tests with `npm test`
 
     > npm test
 
