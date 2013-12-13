@@ -3,7 +3,7 @@
 
 Many developers begin testing JavaScript in the browser with Jasmine. With node and
 jasmine-node, one can run the tests on node instead. This is a minimal example of
-running the tests present in [tdd-js](https://github.com/cymen/tdd-js).
+running the tests present in [tdd-js](https://github.com/cymen/tdd-js) under node.
 
 ### Getting started
 
