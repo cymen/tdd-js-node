@@ -1,0 +1,18 @@
+{
+    "name": "tdd-js-node",
+    "description": "Using jasmine to test some assumptions about how JavaScript works. Example of minimal jasmine setup with node",
+    "version": "0.0.1",
+    "dependencies": {
+        "jasmine-node": "1.11.0"
+    },
+    "engines": {
+        "node": ">=0.8"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cymen/tdd-js-node"
+    },
+    "scripts": {
+        "test": "jasmine-node --forceexit javascript_spec.js"
+    }
+}
